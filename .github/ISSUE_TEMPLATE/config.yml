@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/HookShip/.github/blob/main/SECURITY.md
+    about: Report vulnerabilities privately; never include security details in a public issue.
+  - name: Repository placement
+    url: https://github.com/HookShip/.github/blob/main/REPOSITORY_PLACEMENT.md
+    about: Find the correct repository for an issue or proposed change.

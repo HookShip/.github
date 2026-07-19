@@ -1,0 +1,62 @@
+name: Bug report
+description: Report reproducible incorrect behavior
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a problem. Do not disclose security vulnerabilities here; follow the [security policy](https://github.com/HookShip/.github/blob/main/SECURITY.md).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this problem.
+          required: true
+        - label: I confirmed this issue belongs in this repository.
+          required: true
+        - label: I removed secrets, credentials, private payloads, and personal data.
+          required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the problem and its impact.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Reproduction
+      description: Provide the smallest reproducible example and exact steps.
+      placeholder: |
+        1. Configure ...
+        2. Run or call ...
+        3. Observe ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include sanitized errors or logs when useful.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the revision or version, operating system, runtime, and relevant configuration.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add sanitized examples, screenshots, or related links if helpful.

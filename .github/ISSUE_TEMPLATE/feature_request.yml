@@ -1,0 +1,48 @@
+name: Feature request
+description: Propose an improvement or new capability
+title: "[Feature]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        HookShip is in pre-release development. Please describe the problem before prescribing a solution. Do not disclose security vulnerabilities here; follow the [security policy](https://github.com/HookShip/.github/blob/main/SECURITY.md).
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for this request.
+          required: true
+        - label: I confirmed this request belongs in this repository.
+          required: true
+        - label: I removed secrets, credentials, private payloads, and personal data.
+          required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What limitation or user need should be addressed?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the observable result and who benefits.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed approach
+      description: Share a possible design, API, or workflow if you have one.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Describe current workarounds or other approaches.
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Include compatibility constraints, examples, or related links.
