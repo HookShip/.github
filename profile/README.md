@@ -1,11 +1,12 @@
 # HookShip
 
-**Contract-first webhook toolkit, CLI, adapters, and reference server.**
+**Contract-first webhook infrastructure with portable delivery.**
 
-HookShip is a contract-first webhook toolkit and control-plane project. Its
-intended open foundation covers contract validation and compatibility,
-fixtures and types, Standard Webhooks-compatible signing, adapter primitives,
-a CLI, and a self-hostable reference service.
+HookShip combines an open contract and developer-experience toolkit, a portable
+outbound delivery data plane, and a private hosted control plane. The open
+foundation covers contract validation and compatibility, fixtures and types,
+Standard Webhooks-compatible signing, adapter primitives, a CLI, and
+self-hosted delivery.
 
 > [!IMPORTANT]
 > HookShip is in pre-release development. No public packages, releases, hosted
